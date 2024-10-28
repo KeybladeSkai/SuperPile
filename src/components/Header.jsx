@@ -1,7 +1,7 @@
 import thunder from "../assets/thunder.png";
 const Header = () => {
   return (
-    <div className="flex justify-between px-[3rem] py-[.5rem] items-center fixed w-[100%] bg-white top-0">
+    <div className="flex justify-between px-[3rem] pt-[.2rem] items-center fixed w-[100%] bg-white top-0 left-0">
       <div className="flex gap-[.7rem] py-[.8rem] font-Monsterrat font-bold text-[1rem]">
         <img src={thunder} width={20} />
         <h1>SUPERPILE</h1>

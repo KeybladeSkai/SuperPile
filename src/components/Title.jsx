@@ -4,7 +4,7 @@ const Title = () => {
   console.log(active);
 
   return (
-    <div className="flex flex-col items-center  text-black mt-[5rem] ">
+    <div className="flex flex-col items-center  text-black mt-[10rem] ">
       <p className="font-bold text-[2rem] ">Gather URLs for your future use.</p>
       <div
         onClick={() => setActive(true)}
