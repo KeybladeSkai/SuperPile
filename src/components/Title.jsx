@@ -1,7 +1,6 @@
 import { useState } from "react";
 const Title = () => {
-  const [active, setActive] = useState(false);
-  console.log(active);
+  const [active, setActive] = useState();
 
   return (
     <div className="flex flex-col items-center  text-black mt-[10rem] ">
@@ -15,7 +14,7 @@ const Title = () => {
         <i className="bi bi-search text-sm"></i>
         <input
           onFocus={() => setActive(true)}
-          onBlur={()=>setActive(false)}
+          onBlur={() => setActive(false)}
           placeholder="Search your Linkboard "
           className="rounded-full h-[25px] w-[100%] text-black px-[1rem] bg-transparent border-transparent outline-none text-[12px]"
         />
