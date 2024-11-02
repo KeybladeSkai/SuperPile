@@ -2,12 +2,13 @@ import { useContext } from "react";
 import { SuperPileContext } from "../context/SuperPileContext";
 const LinkPanel = () => {
   const { setLinkBoardPanelToggle } = useContext(SuperPileContext);
+
   return (
     <div className="fixed inset-0 z-[1000] flex justify-center items-center">
       <div className="absolute inset-0 bg-black opacity-70"></div>
       <div className="relative bg-white w-[30%] h-[350px]   rounded-md z-[1001]  flex flex-col gap-[20px] px-[20px] py-[20px]">
         <div className="flex justify-between items-center">
-          <h2 className="font-bold text-[1.2rem]">Add  to your Pile</h2>
+          <h2 className="font-bold text-[1.2rem]">Add to your Pile</h2>
           <i
             onClick={setLinkBoardPanelToggle}
             className="cursor-pointer bi bi-x text-[1.8rem] opacity-[60%] hover:opacity-100"

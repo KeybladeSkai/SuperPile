@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "meta-og": "^0.0.4",
+    "open-graph-scraper": "^6.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
